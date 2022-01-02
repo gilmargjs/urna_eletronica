@@ -23,9 +23,34 @@ background: linear-gradient(to right, #E8E8E8 ,#C1C1C1);
 }
 
 
+    
 .teclado{
 background-color: #403A3A;
 /* afastando o teclado da tela */
 margin-left: 30px;
 
 }
+
+
+.teclado--linha{
+    display: flex;
+    justify-content: center;
+}
+
+
+.teclado--botao{
+    width: 70px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    /* mudar formato do mouse encima do botão */
+    cursor: pointer;
+    /* para deixar uma sobra  */
+    box-shadow: 3px 3px 0px #5555;
+}
+
