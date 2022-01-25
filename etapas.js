@@ -2,7 +2,7 @@ let etapas = [{
         titulo: 'VEREADOR',
         numeros: 5,
         candidatos: [{
-                numero: 38111,
+                numero: '38111',
                 nome: 'Biu Roseno',
                 partido: 'ABC',
                 fotos: [{
@@ -11,7 +11,7 @@ let etapas = [{
                 }]
             },
             {
-                numero: 48222,
+                numero: '48222',
                 nome: 'Jasanã dourado',
                 partido: 'DEF',
                 fotos: [{
@@ -25,12 +25,12 @@ let etapas = [{
         titulo: 'PREFEITO',
         numeros: 2,
         candidatos: [{
-                numero: 99,
+                numero: '99',
                 nome: 'Preferido do Povo',
                 partido: 'ABC',
                 vice: 'Cic',
                 fotos: [{
-                        url: '99.jpg',
+                        url: '99.jpeg',
                         legenda: 'Prefeito'
                     },
                     {
@@ -41,7 +41,7 @@ let etapas = [{
                 ]
             },
             {
-                numero: 49,
+                numero: '84',
                 nome: 'Zeca Tatu',
                 partido: 'DEF',
                 vice: 'Zul',
@@ -50,7 +50,7 @@ let etapas = [{
                         legenda: 'Prefeito'
                     },
                     {
-                        url: '84_2.jpg',
+                        url: '84_2.jpeg',
                         legenda: 'Vice-Prefeito',
                         small: true
                     }
